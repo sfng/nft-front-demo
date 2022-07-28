@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <WalletTest msg="NTF Contract Test"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WalletTest from './components/Wallet.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WalletTest
   }
 }
 </script>
